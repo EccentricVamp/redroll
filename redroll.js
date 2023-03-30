@@ -65,7 +65,7 @@ export function roll(diceNotation) {
     if (!formula) return false
 
     const result = new Result()
-    for (const i = 0; i < formula.dice; i++) {
+    for (let i = 0; i < formula.dice; i++) {
         result.rolls[i] = 1 + Math.floor(Math.random() * formula.sides)
         result.total += result.rolls[i]
     }
