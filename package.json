@@ -1,0 +1,18 @@
+{
+  "name": "redroll",
+  "version": "0.1.0",
+  "description": "Native-ESM dice-roller using dice notation",
+  "keywords": [
+    "dice",
+    "roll"
+  ],
+  "author": "T. Luke Cloninger",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/EccentricVamp/redroll"
+  },
+  "bugs": "http://github.com/EccentricVamp/redroll/issues",
+  "license": "MIT",
+  "exports": "./redroll.js",
+  "type": "module"
+}
