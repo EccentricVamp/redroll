@@ -14,5 +14,8 @@
   "bugs": "http://github.com/EccentricVamp/redroll/issues",
   "license": "MIT",
   "exports": "./redroll.js",
-  "type": "module"
+  "type": "module",
+  "files": [
+    "./redroll.js"
+  ]
 }
