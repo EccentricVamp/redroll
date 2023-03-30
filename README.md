@@ -1,6 +1,6 @@
 # Description
 
-Redroll is a native-ESM dice-roller based on [droll](github.com/thebinarypenguin/droll). It accepts input in [dice notation](http://en.wikipedia.org/wiki/Dice_notation).
+Redroll is a native-ESM dice-roller based on [droll](https://github.com/thebinarypenguin/droll). It accepts input in [dice notation](http://en.wikipedia.org/wiki/Dice_notation).
 
 # Usage
 
