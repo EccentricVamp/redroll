@@ -24,8 +24,14 @@ export class Result {
      */
     toString() {
         const rolls = this.rolls.join(' + ')
-        const sign = this.modifier < 0 ? '-' : '+'
-        return `${rolls} ${sign} ${this.modifier} = ${this.total}`
+
+        if (this.modifier < 0) {
+            return `${rolls} - ${this.modifier} = ${this.total}`
+        } else if (this.modifier > 0) {
+            return `${rolls} + ${this.modifier} = ${this.total}`
+        } else {
+            return `${rolls} = ${this.total}`
+        }
     }
 }
 
