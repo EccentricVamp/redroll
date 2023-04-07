@@ -7,4 +7,5 @@ Redroll is a native-ESM dice-roller based on [droll](https://github.com/thebinar
 ```JavaScript
 import { roll } from 'https://esm.sh/redroll'
 console.log(roll('3d6+1'))
+//> 5 + 3 + 4 + 1 = 13
 ```
